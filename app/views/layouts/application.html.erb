@@ -15,8 +15,6 @@
       <ul class="nav">
         <li class="active">
         <li><%= link_to "All Statuses", statuses_path%></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
       </ul>
 
     </div>
@@ -26,6 +24,8 @@
 
 
 <div class="container" >
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
 <%= yield %>
 </div>
 
